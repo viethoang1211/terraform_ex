@@ -14,6 +14,6 @@ aws_instance_azs = "ap-southeast-1a"
 
 aws_instance_name = "Demo_Instance"
 
-volume_device_name1 = "/dev/sdb"
+volume_device_name1 = "/dev/sdg"
 
-volume_device_name2 = "/dev/sdc"
+volume_device_name2 = "/dev/sdh"
