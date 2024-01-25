@@ -87,3 +87,19 @@ resource "aws_volume_attachment" "name2" {
     volume_id = aws_ebs_volume.name2.id
     instance_id = aws_instance.example_ec2.id
 }
+
+
+# Output 
+output "instance_public_ip" {
+    value = aws_instance.example_ec2.public_ip
+}
+
+output "instance_state" {
+  value = aws_instance.example_ec2.instance_state
+  description = "The state of the instance"
+}
+
+output "instance_public_ip_sensitive" {
+  value = aws_instance.example_ec2.public_ip
+  sensitive = true
+}
