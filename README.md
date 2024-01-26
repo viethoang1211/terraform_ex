@@ -6,4 +6,4 @@ Run " terraform plan " to review
 
 Run " terraform apply " to create/modify resources  
 
-Run " terraforn destroy " to destroy created resources  
+Run " terraform destroy " to destroy created resources  
